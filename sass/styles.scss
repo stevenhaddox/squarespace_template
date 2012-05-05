@@ -1,0 +1,237 @@
+/*
+-----------------------------------------------------
+Template: Developer
+Style: Wireframe-SCSSified
+Copyright: Squarespace Inc. All rights reserved.
+Usage: NOT FOR USE OUTSIDE THE SQUARESPACE PLATFORM
+Comment: Umm... WTF? It's an EMPTY CSS FILE...
+Copyright #FAIL!
+-----------------------------------------------------
+*/
+
+/* Bootstrap Variable Overrides */
+
+/* Import Sass Bootstrap */
+@import "bootstrap";
+
+// Include responsive Bootstrap styles
+// @import "bootstrap-responsive";
+
+/***************************************/
+/****** RESUME SQUARESPACE STYLES ******/
+/***************************************/
+
+
+/* Layout */
+
+body {   }
+
+#canvas {  }
+#canvasWrapper {   }
+
+#pageHeaderWrapper {   }
+#pageHeader {   }
+
+#pageBodyWrapper {   }
+#pageBody {   }
+
+#contentWrapper {   }
+#content {   }
+
+#pageFooterWrapper {   }
+#pageFooter {   }
+
+
+/* Navigation */
+
+#active-module-marker {   }
+
+#navigationTop .horizontalNavigationBar {
+  .content-navigation {   }
+  .folder {   }
+  .folder-link {   }
+  .folder-open {
+    .module a {   }
+  }
+}
+
+#navigationBottom .horizontalNavigationBar {
+  .content-navigation {   }
+  .folder {   }
+  .folder-link {   }
+  .folder-open {
+    .module a {   }
+  }
+}
+
+#sidebar1Wrapper {   }
+#sidebar1 {   }
+
+#sidebar2Wrapper {   }
+#sidebar2 {   }
+
+.sectionInternalWrapper1 {   }
+.sectionInternalWrapper2 {   }
+
+.verticalNavigationBar {
+  .section {
+    .folder {
+      .module { border-bottom: none; }
+    }
+  }
+  .folder-closed {
+    .folder-link {   }
+  }
+  .folder-open {
+    .folder-link {   }
+  }
+}
+.verticalNavigationBarInternalWrapper1 {   }
+.verticalNavigationBarInternalWrapper2 {   }
+
+
+/* Amazon Lists */
+
+.amazon-item-list .picture img  {  }
+.amazon-item-list-pt {
+  .picture img {  }
+  .authors {  }
+  .title {  }
+}
+
+
+/* Link Lists */
+
+.link-list {   }
+
+.link-group-list-pt li {
+  .title {   }
+  ul li {
+    .description {   }
+    .title {   }
+  }
+}
+.link-group-list li ul li {   }
+
+
+/* Comments */
+
+.comment {   
+  .body {   }
+  .signature {
+    .inline-icon {  }
+  }
+}
+
+.discussion-comment-list li {  }
+
+#preview {   }
+
+
+/*  Forms */
+
+.form-body {
+  .fieldTitle {
+    .formTitle {   }
+  }
+  .paragraphtext-small, .paragraphtext-medium, .paragraphtext-large {   }
+  .paragraphtext-small-inline, .paragraphtext-medium-inline, .paragraphtext-large-inline {   }
+  .sectionBreak {   }
+  .singlelinetext-small, .singlelinetext-medium, .singlelinetext-large {   }
+}
+
+// ugh... code smell Squarespace?
+.form-body .singlelinetext-small-inline,
+.form-body .singlelinetext-medium-inline,
+.form-body .singlelinetext-large-inline,
+.content-passthrough .form-body .singlelinetext-small,
+.content-passthrough .form-body .singlelinetext-medium,
+.content-passthrough .form-body .singlelinetext-large  {
+
+}
+
+input.text {   }
+
+.input-field .title {   }
+
+.notice-box {   }
+
+textarea {   }
+
+
+/* Journals */
+
+.category-icon {   }
+.comment-icon {   }
+.date-icon {   }
+.email-icon {   }
+.reference-icon {   }
+.user-registered-icon {   }
+
+.journal-entry-tag-pre-title {
+  .inline-icon { display: none; }
+}
+.journal-entry-tag-post-title {
+  .inline-icon { display: none; }
+}
+
+.postComments {   }
+.postReferences {   }
+
+.postedBy {   }
+.postedIn {   }
+.postedOn {   }
+
+
+/* Search */
+
+.search-result {
+  .search-result-body {
+    .hit-word-body {   }
+  }
+  .search-result-title {   }
+  .search-result-tag {   }
+}
+
+.content-passthrough {
+  .search-form-pt .queryField {  }
+  .submit-button {  }
+}
+
+
+/* Thumbnails */
+
+.thumbnail {   }
+.thumbnail-image-float-left img {   }
+.thumbnail-image-float-right img {   }
+.thumbnail-image-float-none img {   }
+
+
+/* Additional Customizations */
+
+#bannerWrapper {   }
+
+.error-text {   }
+
+.faq-question-list li {  }
+
+.feed-list .feed-link {  }
+
+.file-item-list li {  }
+
+.offsite-link {   }
+
+#squarespace-powered {   }
+
+
+/***************************************/
+/* Add Your Custom CSS Below This Line */
+/***************************************/
+
+
+
+
+
+
+
+

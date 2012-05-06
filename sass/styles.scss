@@ -10,6 +10,9 @@ Copyright #FAIL!
 */
 
 /* Bootstrap Variable Overrides */
+$gridColumns: 39;
+$gridColumnWidth: 20px;
+$gridGutterWidth: 0;
 
 /* Import Sass Bootstrap */
 @import "bootstrap";

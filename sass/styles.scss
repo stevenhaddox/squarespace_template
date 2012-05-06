@@ -10,7 +10,7 @@ Copyright #FAIL!
 */
 
 /* Bootstrap Variable Overrides */
-$gridColumns: 39;
+$gridColumns: 40; /* no gutter, need the extra 20 px for bootstrap */
 $gridColumnWidth: 20px;
 $gridGutterWidth: 0;
 

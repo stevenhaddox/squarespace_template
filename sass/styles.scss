@@ -30,6 +30,9 @@ $gridGutterWidth: 0;
 body {   }
 
 #canvasWrapper {   
+  /* yanked from bootstrap-sass vendor/assets/stylesheets/bootstrap/_mixins.scss
+  /* @include gridCoreSpan($gridColumns, $gridColumnWidth, $gridGutterWidth); */
+  @extend .container;
   margin: 0 auto;
   float: none;
 }

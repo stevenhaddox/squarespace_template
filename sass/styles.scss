@@ -29,11 +29,27 @@ $gridGutterWidth: 0;
 
 body {   }
 
+#canvasWrapper {   
+  margin: 0 auto;
+  float: none;
+}
 #canvas {  }
-#canvasWrapper {   }
 
-#pageHeaderWrapper {   }
-#pageHeader {   }
+#pageHeaderWrapper {
+  margin-top: 90px;
+  padding-bottom: 20px;
+  border-bottom: 1.5px solid $black;
+}
+#pageHeader {
+  a {
+    img {
+      width: 406px;
+      text-align: center;
+      margin: 0 auto;
+      float: none;
+    }
+  }
+}
 
 #pageBodyWrapper {   }
 #pageBody {   }
@@ -49,21 +65,26 @@ body {   }
 
 #active-module-marker {   }
 
-#navigationTop .horizontalNavigationBar {
-  .content-navigation {   }
-  .folder {   }
-  .folder-link {   }
-  .folder-open {
-    .module a {   }
+#navigationTop {
+  display: none;
+  .horizontalNavigationBar {
+    .content-navigation {   }
+    .folder {   }
+    .folder-link {   }
+    .folder-open {
+      .module a {   }
+    }
   }
 }
 
-#navigationBottom .horizontalNavigationBar {
-  .content-navigation {   }
-  .folder {   }
-  .folder-link {   }
-  .folder-open {
-    .module a {   }
+#navigationBottom {
+  .horizontalNavigationBar {
+    .content-navigation {   }
+    .folder {   }
+    .folder-link {   }
+    .folder-open {
+      .module a {   }
+    }
   }
 }
 

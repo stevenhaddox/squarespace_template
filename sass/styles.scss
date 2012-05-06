@@ -47,9 +47,10 @@ body {   }
   a {
     img {
       width: 406px;
+      display: block;
+      float: none;
       text-align: center;
       margin: 0 auto;
-      float: none;
     }
   }
 }
@@ -81,6 +82,7 @@ body {   }
 }
 
 #navigationBottom {
+  display: none;
   .horizontalNavigationBar {
     .content-navigation {   }
     .folder {   }

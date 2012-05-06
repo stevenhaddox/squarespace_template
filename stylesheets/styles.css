@@ -4687,16 +4687,21 @@ a.thumbnail:hover {
 /* line 48, ../sass/styles.scss */
 #pageHeader a img {
   width: 406px;
+  display: block;
+  float: none;
   text-align: center;
-  margin: 0 auto;
-  float: none; }
+  margin: 0 auto; }
 
 /* Navigation */
-/* line 71, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 #navigationTop {
   display: none; }
 
-/* line 106, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
+#navigationBottom {
+  display: none; }
+
+/* line 108, ../sass/styles.scss */
 .verticalNavigationBar .section .folder .module {
   border-bottom: none; }
 
@@ -4705,11 +4710,11 @@ a.thumbnail:hover {
 /* Comments */
 /*  Forms */
 /* Journals */
-/* line 199, ../sass/styles.scss */
+/* line 201, ../sass/styles.scss */
 .journal-entry-tag-pre-title .inline-icon {
   display: none; }
 
-/* line 202, ../sass/styles.scss */
+/* line 204, ../sass/styles.scss */
 .journal-entry-tag-post-title .inline-icon {
   display: none; }
 

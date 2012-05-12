@@ -5636,6 +5636,10 @@ a.thumbnail:hover {
 /* Homepage Specific */
 /*********************/
 /* line 270, ../sass/styles.scss */
+body#modulePage16204325 #pageHeaderWrapper {
+  margin-bottom: 10px;
+}
+/* line 273, ../sass/styles.scss */
 body#modulePage16204325 #sidebar1Wrapper, body#modulePage16204325 #sidebar2Wrapper {
   display: none;
 }

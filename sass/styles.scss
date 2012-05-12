@@ -45,12 +45,14 @@ body {   }
   border-bottom: 1.5px solid $black;
 }
 #pageHeader {
+}
+#bannerWrapper {
+  text-align: center;
   a {
     img {
       width: 406px;
       display: block;
       float: none;
-      text-align: center;
       margin: 0 auto;
     }
   }

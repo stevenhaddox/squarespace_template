@@ -1,3 +1,8 @@
 .sass-cache
+.bundle
+.*.swp
+tmp/
+log/
+*~
+nohup.out
 .DS_Store
-

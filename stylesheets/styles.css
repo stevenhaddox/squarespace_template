@@ -5579,14 +5579,15 @@ a.thumbnail:hover {
 #pageHeaderWrapper {
   margin-top: 90px;
   padding-bottom: 20px;
-  border-bottom: 1.5px solid black;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
 }
 
-/* line 49, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 #bannerWrapper {
   text-align: center;
 }
-/* line 52, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
 #bannerWrapper a img {
   width: 406px;
   display: block;
@@ -5595,17 +5596,17 @@ a.thumbnail:hover {
 }
 
 /* Navigation */
-/* line 75, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 #navigationTop {
   display: none;
 }
 
-/* line 87, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 #navigationBottom {
   display: none;
 }
 
-/* line 111, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 .verticalNavigationBar .section .folder .module {
   border-bottom: none;
 }
@@ -5615,12 +5616,12 @@ a.thumbnail:hover {
 /* Comments */
 /*  Forms */
 /* Journals */
-/* line 204, ../sass/styles.scss */
+/* line 205, ../sass/styles.scss */
 .journal-entry-tag-pre-title .inline-icon {
   display: none;
 }
 
-/* line 207, ../sass/styles.scss */
+/* line 208, ../sass/styles.scss */
 .journal-entry-tag-post-title .inline-icon {
   display: none;
 }
@@ -5634,7 +5635,7 @@ a.thumbnail:hover {
 /*********************/
 /* Homepage Specific */
 /*********************/
-/* line 269, ../sass/styles.scss */
+/* line 270, ../sass/styles.scss */
 body#modulePage16204325 #sidebar1Wrapper, body#modulePage16204325 #sidebar2Wrapper {
   display: none;
 }

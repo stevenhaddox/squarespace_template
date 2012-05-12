@@ -5635,6 +5635,6 @@ a.thumbnail:hover {
 /* Homepage Specific */
 /*********************/
 /* line 269, ../sass/styles.scss */
-body#modulePage16204325 .sidebar1Wrapper, body#modulePage16204325 .sidebar2Wrapper {
+body#modulePage16204325 #sidebar1Wrapper, body#modulePage16204325 #sidebar2Wrapper {
   display: none;
 }

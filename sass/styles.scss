@@ -65,7 +65,12 @@ body {   }
 #contentWrapper {   }
 #content {   }
 
-#pageFooterWrapper {   }
+#pageFooterWrapper {
+  margin-top: 20px
+  padding-top: 20px;
+  border: 2px solid #000;
+  margin-bottom: 90px;
+}
 #pageFooter {   }
 
 

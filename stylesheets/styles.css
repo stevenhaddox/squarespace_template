@@ -5650,15 +5650,19 @@ a.thumbnail:hover {
 /* Homepage Specific */
 /*********************/
 /* line 278, ../sass/styles.scss */
-body#modulePage16204325 #pageHeaderWrapper {
-  margin-bottom: 10px;
-}
-/* line 281, ../sass/styles.scss */
 body#modulePage16204325 #sidebar1Wrapper, body#modulePage16204325 #sidebar2Wrapper {
   display: none;
 }
-/* line 284, ../sass/styles.scss */
-body#modulePage16204325 p {
+/* line 279, ../sass/styles.scss */
+body#modulePage16204325 #pageHeaderWrapper {
+  margin-bottom: 10px;
+}
+/* line 280, ../sass/styles.scss */
+body#modulePage16204325 #pageFooterWrapper {
+  margin-top: 10px;
+}
+/* line 281, ../sass/styles.scss */
+body#modulePage16204325 p, body#modulePage16204325 span {
   margin: 0;
   padding: 0;
 }

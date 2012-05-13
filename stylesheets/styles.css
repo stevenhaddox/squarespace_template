@@ -5603,18 +5603,24 @@ a.thumbnail:hover {
   margin-bottom: 90px;
 }
 
+/* line 74, ../sass/styles.scss */
+#pageFooter {
+  width: 247px;
+  margin: 0 auto;
+}
+
 /* Navigation */
-/* line 81, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 #navigationTop {
   display: none;
 }
 
-/* line 93, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 #navigationBottom {
   display: none;
 }
 
-/* line 117, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 .verticalNavigationBar .section .folder .module {
   border-bottom: none;
 }
@@ -5624,12 +5630,12 @@ a.thumbnail:hover {
 /* Comments */
 /*  Forms */
 /* Journals */
-/* line 210, ../sass/styles.scss */
+/* line 213, ../sass/styles.scss */
 .journal-entry-tag-pre-title .inline-icon {
   display: none;
 }
 
-/* line 213, ../sass/styles.scss */
+/* line 216, ../sass/styles.scss */
 .journal-entry-tag-post-title .inline-icon {
   display: none;
 }
@@ -5643,11 +5649,11 @@ a.thumbnail:hover {
 /*********************/
 /* Homepage Specific */
 /*********************/
-/* line 275, ../sass/styles.scss */
+/* line 278, ../sass/styles.scss */
 body#modulePage16204325 #pageHeaderWrapper {
   margin-bottom: 10px;
 }
-/* line 278, ../sass/styles.scss */
+/* line 281, ../sass/styles.scss */
 body#modulePage16204325 #sidebar1Wrapper, body#modulePage16204325 #sidebar2Wrapper {
   display: none;
 }

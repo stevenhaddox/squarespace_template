@@ -5657,3 +5657,8 @@ body#modulePage16204325 #pageHeaderWrapper {
 body#modulePage16204325 #sidebar1Wrapper, body#modulePage16204325 #sidebar2Wrapper {
   display: none;
 }
+/* line 284, ../sass/styles.scss */
+body#modulePage16204325 p {
+  margin: 0;
+  padding: 0;
+}

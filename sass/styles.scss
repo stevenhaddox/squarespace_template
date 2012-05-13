@@ -10,16 +10,11 @@ Copyright #FAIL!
 */
 
 /* Blueprint Variable Overrides */
-$black: #000;
 
 /**/
-/* Import blueprint CSS */
-@import "blueprint/reset";
 // To configure blueprint, edit the partials/base.sass file.
-@import "blueprint";
-@import "partials/base";
-@import "blueprint/grid";
-@import "blueprint/scaffolding";
+// We'll import the screen.scss file to get all of it's styles
+@import "screen";
 
 /***************************************/
 /****** RESUME SQUARESPACE STYLES ******/
@@ -27,20 +22,23 @@ $black: #000;
 
 
 /* Layout */
++blueprint
 
 body { }
 
 #canvasWrapper {
-  @extend #container;
-  margin: 0 auto;
+  @include column(27);
+  @include last;
+  display: block;
   float: none;
+  margin: 0 auto;
 }
 #canvas {  }
 
 #pageHeaderWrapper {
   margin-top: 90px;
   padding-bottom: 20px;
-  border-bottom: 2px solid $black;
+  border-bottom: 2px solid #000;
   margin-bottom: 20px;
 }
 #pageHeader {
@@ -58,14 +56,11 @@ body { }
 }
 
 #pageBodyWrapper {
-  @extend .clearfix;
+  @include clearfix;
 }
 #pageBody {   }
 
-#contentWrapper {
-  float: none;
-  @extend .span-23;
-}
+#contentWrapper { }
 #content {   }
 
 #pageFooterWrapper {
@@ -109,7 +104,7 @@ body { }
 }
 
 #sidebar1Wrapper, #sidebar2Wrapper {
-  @extend .span-6;
+  @include column(4);
 }
 
 #sidebar1Wrapper {
@@ -118,6 +113,7 @@ body { }
 #sidebar1 {   }
 
 #sidebar2Wrapper {
+  @include last;
   float: right;
 }
 #sidebar2 {   }
@@ -286,28 +282,45 @@ textarea {   }
 /*********************/
 
 body#modulePage16204325 {
+  #contentWrapper {
+    @include column(27);
+    @include last;
+  }
   #sidebar1Wrapper, #sidebar2Wrapper { display: none; }
   #pageHeaderWrapper { margin-bottom: 10px; }
   #pageFooterWrapper { margin-top: 10px; }
   p, span { margin: 0; padding: 0; }
-  ul#homepage-navigation {
-    height: 58px;
-    margin: 10px 0 0 0;
+  #homepage-navigation {
+    @include column(27);
+    @include last;
+    margin-top: 10px;
     border-top: 2px solid #000;
-    padding: 10px 36px 0 36px;
-    li {
-      list-style: none;
-      float: left;
-      line-height: 58px;
-      width: 72px;
-      text-align: center;
-      padding: 0 36px;
-      border-right: 1px solid #000;
-      img { vertical-align: bottom; }
-      img.descender { margin-bottom: -6px; }
-    }
-    li.last {
-      border: 0px;
+    padding-top: 10px;
+    height: 58px;
+    ul {
+      // @include column(25);
+      // @include last;
+      width: 744px; // column(25) + 4px for borders
+      height: 58px;
+      margin: 0 auto;
+      display: block;
+      float: none;
+      li {
+        @include prepend(1);
+        @include column(3);
+        @include append(1);
+        list-style: none;
+        float: left;
+        line-height: 58px;
+        text-align: center;
+        border-right: 1px solid #000;
+        img { vertical-align: bottom; }
+        img.descender { margin-bottom: -6px; }
+      }
+      li.last {
+        @include last;
+        border: 0px;
+      }
     }
   }
 }

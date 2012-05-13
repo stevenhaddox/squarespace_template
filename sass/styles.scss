@@ -59,10 +59,16 @@ body {   }
   }
 }
 
-#pageBodyWrapper {   }
+#pageBodyWrapper {
+  @extend .clearfix;
+}
 #pageBody {   }
 
-#contentWrapper {   }
+#contentWrapper {
+  float: none;
+  width: 100%;
+  // @extend .span23;
+}
 #content {   }
 
 #pageFooterWrapper {
@@ -105,10 +111,18 @@ body {   }
   }
 }
 
-#sidebar1Wrapper {   }
+#sidebar1Wrapper, #sidebar2Wrapper {
+  @extend .span6;
+}
+
+#sidebar1Wrapper {
+  float: left;
+}
 #sidebar1 {   }
 
-#sidebar2Wrapper {   }
+#sidebar2Wrapper {
+  float: right;
+}
 #sidebar2 {   }
 
 .sectionInternalWrapper1 {   }

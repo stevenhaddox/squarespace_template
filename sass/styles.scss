@@ -9,17 +9,17 @@ Copyright #FAIL!
 -----------------------------------------------------
 */
 
-/* Bootstrap Variable Overrides */
-$gridColumns: 40; /* no gutter, need the extra 20 px for bootstrap */
-$gridColumnWidth: 20px;
-$gridGutterWidth: 0;
+/* Blueprint Variable Overrides */
+$black: #000;
 
 /**/
-/* Import Sass Bootstrap */
-@import "bootstrap";
-
-// Include responsive Bootstrap styles
-// @import "bootstrap-responsive";
+/* Import blueprint CSS */
+@import "blueprint/reset";
+// To configure blueprint, edit the partials/base.sass file.
+@import "blueprint";
+@import "partials/base";
+@import "blueprint/grid";
+@import "blueprint/scaffolding";
 
 /***************************************/
 /****** RESUME SQUARESPACE STYLES ******/
@@ -28,12 +28,10 @@ $gridGutterWidth: 0;
 
 /* Layout */
 
-body {   }
+body { }
 
-#canvasWrapper {   
-  /* yanked from bootstrap-sass vendor/assets/stylesheets/bootstrap/_mixins.scss
-  /* @include gridCoreSpan($gridColumns, $gridColumnWidth, $gridGutterWidth); */
-  @extend .container;
+#canvasWrapper {
+  @extend #container;
   margin: 0 auto;
   float: none;
 }
@@ -66,8 +64,7 @@ body {   }
 
 #contentWrapper {
   float: none;
-  width: 100%;
-  // @extend .span23;
+  @extend .span-23;
 }
 #content {   }
 
@@ -112,7 +109,7 @@ body {   }
 }
 
 #sidebar1Wrapper, #sidebar2Wrapper {
-  @extend .span6;
+  @extend .span-6;
 }
 
 #sidebar1Wrapper {

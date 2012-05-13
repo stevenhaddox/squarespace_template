@@ -5599,7 +5599,7 @@ a.thumbnail:hover {
 #pageFooterWrapper {
   margin-top: 20px;
   padding-top: 20px;
-  border: 2px solid #000;
+  border-top: 2px solid #000;
   margin-bottom: 90px;
 }
 

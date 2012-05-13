@@ -5687,7 +5687,11 @@ body#modulePage16204325 ul#homepage-navigation li {
 body#modulePage16204325 ul#homepage-navigation li img {
   vertical-align: bottom;
 }
-/* line 297, ../sass/styles.scss */
+/* line 296, ../sass/styles.scss */
+body#modulePage16204325 ul#homepage-navigation li img.descender {
+  margin-bottom: -6px;
+}
+/* line 298, ../sass/styles.scss */
 body#modulePage16204325 ul#homepage-navigation li.last {
   border: 0px;
 }

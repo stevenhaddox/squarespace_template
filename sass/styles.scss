@@ -279,4 +279,23 @@ body#modulePage16204325 {
   #pageHeaderWrapper { margin-bottom: 10px; }
   #pageFooterWrapper { margin-top: 10px; }
   p, span { margin: 0; padding: 0; }
+  ul#homepage-navigation {
+    height: 58px;
+    margin: 10px 0 0 0;
+    border-top: 2px solid #000;
+    padding: 10px 36px 0 36px;
+    li {
+      list-style: none;
+      float: left;
+      line-height: 58px;
+      width: 72px;
+      text-align: center;
+      padding: 0 36px;
+      border-right: 1px solid #000;
+      img { vertical-align: bottom; }
+    }
+    li.last {
+      border: 0px;
+    }
+  }
 }

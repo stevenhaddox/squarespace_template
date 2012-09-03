@@ -1,5 +1,5 @@
-seedhousestationers.com
-=======================
+SquareSpace Theme Template
+==========================
 
 Squarespace theme using compass, sass, and twitter bootstrap
 
